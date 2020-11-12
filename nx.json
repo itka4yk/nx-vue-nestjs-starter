@@ -22,5 +22,20 @@
       }
     }
   },
-  "projects": {}
+  "projects": {
+    "ui": {
+      "tags": []
+    },
+    "ui-e2e": {
+      "tags": [],
+      "implicitDependencies": ["ui"]
+    },
+    "api": {
+      "tags": [],
+      "implicitDependencies": ["contract"]
+    },
+    "api.contract": {
+      "tags": []
+    }
+  }
 }
